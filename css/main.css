@@ -1,0 +1,140 @@
+html body{
+    background-color: #666666;
+}
+
+.container{
+    background: url('../images/PicCover-SPhone.png') no-repeat, url("../images/PicFamily-SPhone.jpg") no-repeat;
+    width: 320px;
+    height: 360px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textBox, .textBox h1, .textBox p, .textBox button{
+    width: 300px;
+}
+
+.textBox{
+    padding-top: 35px;
+}
+
+.textBox h1{
+    color: #4A4A4A;
+    font-family: Montserrat,  sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: normal;
+    padding-bottom: 17px;
+    margin: 0;
+
+}
+
+.textBox p{
+    color: #4A4A4A;
+    font-family: "Open Sans",  sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.textBox button{
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Montserrat,  sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    border: none;
+    background-color: #395EAB;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3);
+    margin-top: 30px;
+}
+
+
+/*TABLET*/
+
+@media (min-width: 768px){
+    .container{
+        background: url('../images/PicCover-Tablet.png') no-repeat, url("../images/PicFamily-Tablet.jpg") no-repeat;
+        min-width: 768px;
+        height: 444px;
+        padding: 0;
+    }
+
+    .textBox, .textBox h1{
+        width: 490px;
+    }
+
+    .textBox p{
+        width: 397px;
+    }
+
+    .textBox{
+        padding-left: 19px;
+        padding-top: 85px;
+    }
+    .textBox h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .textBox h1{
+        padding-bottom: 21px;
+    }
+
+    .textBox button{
+        width: 200px;
+        margin-top: 20px;
+    }
+
+}
+
+
+/*DESKTOP*/
+
+@media (min-width: 1024px){
+    .container{
+        background: url('../images/PicCover-Desktop.png') no-repeat, url("../images/PicFamily-Desktop.jpg") no-repeat;
+        min-width: 1024px;
+    }
+
+    .textBox, .textBox p, .textBox h1{
+        width: 500px;
+    }
+
+    .textBox{
+        padding-left: 27px;
+        padding-top: 84px;
+    }
+
+    .textBox button{
+        width: 199px;
+    }
+}
+
+
+/*HIGH-RES*/
+
+@media (min-width: 1440px){
+    .container{
+        background: url('../images/PicCover-HRes.png') no-repeat, url("../images/PicFamily-HRes.jpg") no-repeat;
+        min-width: 1440px;
+    }
+
+    .textBox, .textBox p, .textBox h1{
+        width: 490px;
+    }
+
+    .textBox{
+        padding-left: 135px;
+    }
+
+    .textBox button{
+        width: 220px;
+    }
+}
