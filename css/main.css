@@ -3,7 +3,7 @@ html body{
 }
 
 .container{
-    background: url('../images/PicCover-SPhone.png') no-repeat, url("../images/PicFamily-SPhone.jpg") no-repeat;
+    background: url('./images/PicCover-SPhone.png') no-repeat, url("./images/PicFamily-SPhone.jpg") no-repeat;
     width: 320px;
     height: 360px;
     padding-left: 10px;
@@ -60,7 +60,7 @@ html body{
 
 @media (min-width: 768px){
     .container{
-        background: url('../images/PicCover-Tablet.png') no-repeat, url("../images/PicFamily-Tablet.jpg") no-repeat;
+        background: url('./images/PicCover-Tablet.png') no-repeat, url("./images/PicFamily-Tablet.jpg") no-repeat;
         min-width: 768px;
         height: 444px;
         padding: 0;
@@ -99,7 +99,7 @@ html body{
 
 @media (min-width: 1024px){
     .container{
-        background: url('../images/PicCover-Desktop.png') no-repeat, url("../images/PicFamily-Desktop.jpg") no-repeat;
+        background: url('./images/PicCover-Desktop.png') no-repeat, url("./images/PicFamily-Desktop.jpg") no-repeat;
         min-width: 1024px;
     }
 
@@ -122,7 +122,7 @@ html body{
 
 @media (min-width: 1440px){
     .container{
-        background: url('../images/PicCover-HRes.png') no-repeat, url("../images/PicFamily-HRes.jpg") no-repeat;
+        background: url('./images/PicCover-HRes.png') no-repeat, url('./images/PicFamily-HRes.jpg") no-repeat;
         min-width: 1440px;
     }
 
