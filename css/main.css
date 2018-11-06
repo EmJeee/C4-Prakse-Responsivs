@@ -122,7 +122,7 @@ html body{
 
 @media (min-width: 1440px){
     .container{
-        background: url('Images/PicCover-HRes.png') no-repeat, url('Images/PicFamily-HRes.jpg") no-repeat;
+        background: url('Images/PicCover-HRes.png') no-repeat, url("Images/PicFamily-HRes.jpg") no-repeat;
         min-width: 1440px;
     }
 
